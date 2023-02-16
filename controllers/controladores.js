@@ -6,8 +6,8 @@ controller.principal=(req,res)=>{
     if(req.session.loggedin){
         return res.render('principal/principal',{
             login:true,
-            name: req.session.name +" dé clic para cerrar sesion",
-            nombre:req.session.name +" dé clic para cerrar sesion",
+            name: req.session.name,
+            nombre:req.session.name,
             sesion:true
         });
     }else{
