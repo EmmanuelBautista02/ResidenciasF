@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    background-color: #ffffff;
+    height: 80vh;
+}
+
+/*a{
+    color: white;
+    text-decoration: none;
+}*/
+
+/*------------------------- Codigo de estilos del header-------------------------*/
+.header{
+    width: 100%; 
+}
+
+.header:before{
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand > img{
+    width: 100px;
+    left: 80px;
+    padding-left: 5%;
+}
+
+.nav{
+    position: fired;
+    width: 100%;
+    background-color: #000000;
+}
+
+.navg a{
+    color: rgb(255, 255, 255)!important;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.col{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*-------------------------Codigo del Body-------------------------*/
+.Bienvenido p{
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 130%;
+    justify-content: center;
+    display: flex;
+}
+
+.loginFondo{
+    background-color: #C3B1D1;
+    position: relative;
+    display: flex;
+}
+
+.imgPrincipal{
+    background-image: url(../img/principal.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imgPrincipal h1{
+    min-height: 100%;
+    color: #ffffff;
+    font-family: 'Anton';
+    position: center;
+    font-size: 350%;
+    margin: auto;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.t1 h1{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    color: #ffffff;
+ }
+
+.t2 h2{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    color: #000000;
+}
+form{
+    font-weight: bold;
+}
+
+.linkContactanos{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.linkContactanos a{
+    text-decoration: none;
+    color: #3A0092;
+}
+
+.btn-verde{
+    padding: 7px 12px;
+    color: #ffffff;
+    background-color: #000000; 
+    font-weight: bold;
+    font-family: 'Montserrat';
+    border-radius: 1em;
+}
+
+.btn-verde:hover{
+    padding: 7px 12px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.boton{
+    justify-content: center;
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+}
+
+.input-group-text{
+    background-color: #3A0092;
+}
